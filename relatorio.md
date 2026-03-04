@@ -1,12 +1,13 @@
 # RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 
 Data: 04/03/2026
-Empresa: Abstergo Industries
-Responsável: João Pedro Aded
 
-## Introdução
+Empresa: Abstergo Industries 
 
-Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Leonardo Itaborahy. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos por meio da adoção de infraestrutura em nuvem, substituindo recursos locais e reduzindo gastos com manutenção de servidores físicos e armazenamento de dados.
+Responsável: João Pedro Aded 
+## Introdução 
+
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por João Pedro Aded. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos por meio da adoção de infraestrutura em nuvem, substituindo recursos locais e reduzindo gastos com manutenção de servidores físicos e armazenamento de dados.
 
 ## Descrição do Projeto
 
@@ -42,11 +43,52 @@ A implementação de ferramentas na empresa Abstergo Industries tem como esperad
 
 ## Anexos
 
-Documentação oficial dos serviços AWS utilizados
+## Anexos
 
-Guia de implementação dos serviços na AWS
+### Anexo I — Documentação oficial dos serviços AWS utilizados
 
-Relatório de estimativa de custos na nuvem
+Este anexo apresenta os links para a documentação oficial dos serviços utilizados no projeto.
+
+Amazon S3  
+https://docs.aws.amazon.com/s3/
+
+Amazon EC2  
+https://docs.aws.amazon.com/ec2/
+
+Amazon RDS  
+https://docs.aws.amazon.com/rds/
+
+---
+
+### Anexo II — Guia de implementação dos serviços na AWS
+
+Etapas gerais para implementação dos serviços utilizados no projeto:
+
+1. Criação de conta na AWS e acesso ao AWS Management Console.
+2. Criação de um bucket no Amazon S3 para armazenamento de documentos e backups.
+3. Criação de uma instância EC2 para hospedagem do sistema de gestão da farmácia.
+4. Configuração do banco de dados no Amazon RDS.
+5. Integração do sistema hospedado no EC2 com o banco de dados do RDS.
+
+---
+
+### Anexo III — Estimativa básica de custos na nuvem
+
+Estimativa aproximada de custos mensais para utilização dos serviços.
+
+Amazon S3  
+Armazenamento aproximado de 100 GB.  
+Custo médio estimado: cerca de US$ 2 a US$ 3 por mês.
+
+Amazon EC2  
+Instância de pequeno porte para hospedagem de aplicação.  
+Custo médio estimado: cerca de US$ 8 a US$ 12 por mês.
+
+Amazon RDS  
+Banco de dados gerenciado para aplicações da empresa.  
+Custo médio estimado: cerca de US$ 15 a US$ 20 por mês.
+
+O modelo de cobrança da AWS é baseado em uso (pay-as-you-go), permitindo que a empresa pague apenas pelos recursos utilizados.
 
 ## Assinatura do Responsável pelo Projeto:
 
